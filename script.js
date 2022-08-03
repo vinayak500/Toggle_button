@@ -4,7 +4,10 @@ var outerbutton = document.getElementById('toggle-button-outer-container');
 var heading = document.getElementById('heading');
 
 innerbutton.addEventListener('click' , function(){
-    innerbutton.style.marginLeft="40px";
+    // innerbutton.style.marginLeft="40px";
+
+    outerbutton.style.justifyContent='flex-end';
+
     innerbutton.style.backgroundColor='black';
 
     outerbutton.style.backgroundColor='white';
